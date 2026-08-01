@@ -11,3 +11,15 @@ Includes:
 
 ## Run locally
 
+Install dependencies with `nub`, then start Astro:
+
+```sh
+nub install
+nub run dev
+```
+
+Build the static site with:
+
+```sh
+nub run build
+```

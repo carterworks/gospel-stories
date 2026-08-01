@@ -3,10 +3,24 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "convert": "node scripts/convert-stories.mjs"
+    "convert": "nub scripts/convert-stories.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "dependencies": {
+    "@astrojs/markdown-satteri": "^0.3.5",
     "defuddle": "^0.19.2",
     "linkedom": "^0.18.13"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "nub",
+      "version": "^0.6.0",
+      "onFail": "warn"
+    }
+  },
+  "devDependencies": {
+    "astro": "^7.1.6"
   }
 }
