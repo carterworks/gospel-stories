@@ -23,3 +23,9 @@ Build the static site with:
 ```sh
 nub run build
 ```
+
+## Deploy
+
+Pushes to `main` build and deploy the site to Cloudflare Pages at `https://gospelstories.carter.works`.
+
+The GitHub repository needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets.
