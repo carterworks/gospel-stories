@@ -1,7 +1,7 @@
 ---
 title: Jesus Was Born
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/24-jesus-was-born?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007268-24-jesus-was-born?lang=eng
 ---
 
 ---

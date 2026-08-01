@@ -1,7 +1,7 @@
 ---
 title: The Kirtland Temple
 url: https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-stories-for-young-readers/the-kirtland-temple?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007269-the-kirtland-temple?lang=eng
 ---
 
 ---

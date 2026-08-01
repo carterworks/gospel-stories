@@ -1,7 +1,7 @@
 ---
 title: I Want to Follow Jesus
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/11-i-want-to-follow-jesus?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/2022-08-0060-i-want-to-follow-jesus?lang=eng
 ---
 
 ---

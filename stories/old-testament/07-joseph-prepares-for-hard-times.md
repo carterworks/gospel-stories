@@ -1,7 +1,7 @@
 ---
 title: Joseph Prepares for Hard Times
 url: https://www.churchofjesuschrist.org/study/manual/old-testament-stories-for-young-readers/04a-joseph-prepares-for-hard-times?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007270-04a-joseph-prepares-for-hard-times?lang=eng
 ---
 
 ---

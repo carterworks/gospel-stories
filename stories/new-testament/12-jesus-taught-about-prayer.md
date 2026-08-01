@@ -1,7 +1,7 @@
 ---
 title: Jesus Taught about Prayer
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/15-jesus-taught-about-prayer?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/2022-08-0070-jesus-taught-about-prayer?lang=eng
 ---
 
 ---

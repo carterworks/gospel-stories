@@ -1,7 +1,7 @@
 ---
 title: Alma the Younger Repents
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/alma-the-younger-repents?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-alma-the-younger-repents?lang=eng
 ---
 
 ---

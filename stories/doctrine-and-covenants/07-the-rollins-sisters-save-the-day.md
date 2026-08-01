@@ -1,7 +1,7 @@
 ---
 title: The Rollins Sisters Save the Day!
 url: https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-stories-for-young-readers/the-rollins-sisters-save-the-day?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007269-031?lang=eng
 ---
 
 ---

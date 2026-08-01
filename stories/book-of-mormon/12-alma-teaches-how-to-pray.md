@@ -1,7 +1,7 @@
 ---
 title: Alma Teaches How to Pray
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/06-alma-teaches-how-to-pray?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-06-alma-teaches-how-to-pray?lang=eng
 ---
 
 ---

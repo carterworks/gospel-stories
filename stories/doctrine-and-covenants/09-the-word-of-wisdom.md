@@ -1,7 +1,7 @@
 ---
 title: The Word of Wisdom
 url: https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-stories-for-young-readers/the-word-of-wisdom?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007269-the-word-of-wisdom?lang=eng
 ---
 
 ---

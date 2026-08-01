@@ -1,7 +1,7 @@
 ---
 title: Jesus Is Kind
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/09-jesus-is-kind?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/2022-08-0120-jesus-is-kind?lang=eng
 ---
 
 ---

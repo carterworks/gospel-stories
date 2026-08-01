@@ -1,7 +1,7 @@
 ---
 title: Jesus Was Born in Bethlehem
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/12-jesus-was-born-in-bethlehem?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/2022-08-0020-jesus-was-born-in-bethlehem?lang=eng
 ---
 
 ---

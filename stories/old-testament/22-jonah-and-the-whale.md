@@ -1,7 +1,7 @@
 ---
 title: Jonah and the Whale
 url: https://www.churchofjesuschrist.org/study/manual/old-testament-stories-for-young-readers/12-jonah-and-the-whale?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007270-12-jonah-and-the-whale?lang=eng
 ---
 
 ---

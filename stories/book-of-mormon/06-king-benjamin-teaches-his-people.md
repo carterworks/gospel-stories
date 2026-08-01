@@ -1,7 +1,7 @@
 ---
 title: King Benjamin Teaches His People
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/03-king-benjamin-teaches-his-people?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-03-king-benjamin-teaches-his-people?lang=eng
 ---
 
 ---

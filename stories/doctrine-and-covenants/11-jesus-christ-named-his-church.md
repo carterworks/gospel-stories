@@ -1,7 +1,7 @@
 ---
 title: Jesus Christ Named His Church
 url: https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-stories-for-young-readers/jesus-christ-named-his-church?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007269-jesus-christ-named-his-church?lang=eng
 ---
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: Jesus Christ’s Church Is Restored!
 url: https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-stories-for-young-readers/01-jesus-christs-church-is-restored?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007269-01-jesus-christs-church-is-restored?lang=eng
 ---
 
 ---

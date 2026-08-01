@@ -1,7 +1,7 @@
 ---
 title: A Vision of God’s Plan
 url: https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-stories-for-young-readers/a-vision-of-gods-plan?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007269-a-vision-of-gods-plan?lang=eng
 ---
 
 ---

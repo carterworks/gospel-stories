@@ -1,7 +1,7 @@
 ---
 title: Jesus Visits the Nephites
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/09-jesus-visits-the-nephites?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-09-jesus-visits-the-nephites?lang=eng
 ---
 
 ---

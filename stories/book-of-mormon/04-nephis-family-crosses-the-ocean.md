@@ -1,7 +1,7 @@
 ---
 title: Nephi’s Family Crosses the Ocean
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/02-nephis-family-crosses-the-ocean?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-02-nephis-family-crosses-the-ocean?lang=eng
 ---
 
 ---

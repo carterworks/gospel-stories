@@ -1,7 +1,7 @@
 ---
 title: Alma Baptizes Many People
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/04-alma-baptizes-many-people?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-04-alma-baptizes-many-people?lang=eng
 ---
 
 ---

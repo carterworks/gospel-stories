@@ -1,7 +1,7 @@
 ---
 title: Jesus Said to Share the Gospel
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/19-jesus-said-to-share-the-gospel?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007268-19-jesus-said-to-share-the-gospel?lang=eng
 ---
 
 ---

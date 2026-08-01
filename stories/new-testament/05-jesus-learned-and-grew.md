@@ -1,7 +1,7 @@
 ---
 title: Jesus Learned and Grew
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/13-jesus-learned-and-grew?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007268-13-jesus-learned-and-grew?lang=eng
 ---
 
 ---

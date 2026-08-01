@@ -1,7 +1,7 @@
 ---
 title: Traveling to the Promised Land
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/10-traveling-to-the-promised-land?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-10-traveling-to-the-promised-land?lang=eng
 ---
 
 ---

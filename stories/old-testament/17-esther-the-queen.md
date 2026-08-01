@@ -1,7 +1,7 @@
 ---
 title: Esther the Queen
 url: https://www.churchofjesuschrist.org/study/manual/old-testament-stories-for-young-readers/10-esther-the-queen?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007270-10-esther-the-queen?lang=eng
 ---
 
 ---

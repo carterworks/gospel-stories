@@ -1,7 +1,7 @@
 ---
 title: Moses Follows God
 url: https://www.churchofjesuschrist.org/study/manual/old-testament-stories-for-young-readers/06-moses-follows-god?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007270-06-moses-follows-god?lang=eng
 ---
 
 ---

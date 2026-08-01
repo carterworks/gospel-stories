@@ -1,7 +1,7 @@
 ---
 title: Jesus Taught about Heavenly Father’s Love
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/05-jesus-taught-about-heavenly-fathers-love?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/2022-08-0110-jesus-taught-about-heavenly-fathers-love?lang=eng
 ---
 
 ---

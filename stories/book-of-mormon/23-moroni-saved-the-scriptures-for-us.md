@@ -1,7 +1,7 @@
 ---
 title: Moroni Saved the Scriptures for Us
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/moroni-saved-the-scriptures-for-us?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-moroni-saved-the-scriptures-for-us?lang=eng
 ---
 
 ---

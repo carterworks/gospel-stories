@@ -1,7 +1,7 @@
 ---
 title: Jesus Forgave
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/08-jesus-forgave?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/2022-08-0100-jesus-forgave?lang=eng
 ---
 
 ---

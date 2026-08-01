@@ -1,7 +1,7 @@
 ---
 title: Paul’s Missionary Journeys
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/23-pauls-missionary-journeys?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007268-23-pauls-missionary-journeys?lang=eng
 ---
 
 ---

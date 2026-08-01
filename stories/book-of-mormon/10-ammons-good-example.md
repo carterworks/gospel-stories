@@ -1,7 +1,7 @@
 ---
 title: Ammon’s Good Example
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/05-ammons-good-example?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-05-ammons-good-example?lang=eng
 ---
 
 ---

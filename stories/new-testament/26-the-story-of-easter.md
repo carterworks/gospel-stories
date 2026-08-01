@@ -1,7 +1,7 @@
 ---
 title: The Story of Easter
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/16-the-story-of-easter?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007268-16-the-story-of-easter?lang=eng
 ---
 
 ---

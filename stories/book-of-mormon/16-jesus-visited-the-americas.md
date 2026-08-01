@@ -1,7 +1,7 @@
 ---
 title: Jesus Visited the Americas
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/jesus-visited-the-americas?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-jesus-visited-the-americas?lang=eng
 ---
 
 ---

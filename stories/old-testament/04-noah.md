@@ -1,7 +1,7 @@
 ---
 title: Noah
 url: https://www.churchofjesuschrist.org/study/manual/old-testament-stories-for-young-readers/03-noah?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007270-03-noah?lang=eng
 ---
 
 ---

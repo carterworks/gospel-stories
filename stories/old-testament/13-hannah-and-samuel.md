@@ -1,7 +1,7 @@
 ---
 title: Hannah and Samuel
 url: https://www.churchofjesuschrist.org/study/manual/old-testament-stories-for-young-readers/07-hannah-and-samuel?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007270-07-hannah-and-samuel?lang=eng
 ---
 
 ---

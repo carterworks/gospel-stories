@@ -1,7 +1,7 @@
 ---
 title: Nephi Gets the Brass Plates
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/01-nephi-gets-the-brass-plates?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-01-nephi-gets-the-brass-plates?lang=eng
 ---
 
 ---

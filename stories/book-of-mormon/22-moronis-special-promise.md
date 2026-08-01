@@ -1,7 +1,7 @@
 ---
 title: Moroni’s Special Promise
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/12-moronis-special-promise?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-12-moronis-special-promise?lang=eng
 ---
 
 ---

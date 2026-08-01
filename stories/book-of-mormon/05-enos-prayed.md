@@ -1,7 +1,7 @@
 ---
 title: Enos Prayed
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/03-enos-prayed?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-03-enos-prayed?lang=eng
 ---
 
 ---

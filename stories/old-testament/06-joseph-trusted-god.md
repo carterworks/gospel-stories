@@ -1,7 +1,7 @@
 ---
 title: Joseph Trusted God
 url: https://www.churchofjesuschrist.org/study/manual/old-testament-stories-for-young-readers/04-joseph-trusted-god?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007270-04-joseph-trusted-god?lang=eng
 ---
 
 ---

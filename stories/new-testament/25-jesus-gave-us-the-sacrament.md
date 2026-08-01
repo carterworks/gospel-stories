@@ -1,7 +1,7 @@
 ---
 title: Jesus Gave Us the Sacrament
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/04-jesus-gave-us-the-sacrament?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/2022-08-0140-jesus-gave-us-the-sacrament?lang=eng
 ---
 
 ---

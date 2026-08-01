@@ -1,7 +1,7 @@
 ---
 title: Jesus Taught about the Sacrament
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/18-jesus-taught-about-the-sacrament?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007268-18-jesus-taught-about-the-sacrament?lang=eng
 ---
 
 ---

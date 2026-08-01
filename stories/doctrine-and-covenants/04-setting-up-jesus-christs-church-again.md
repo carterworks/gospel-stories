@@ -1,7 +1,7 @@
 ---
 title: Setting Up Jesus Christ’s Church Again
 url: https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-stories-for-young-readers/setting-up-jesus-christs-church-again?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007269-setting-up-jesus-christs-church-again?lang=eng
 ---
 
 ---

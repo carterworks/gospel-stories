@@ -1,7 +1,7 @@
 ---
 title: A Visit from John the Baptist
 url: https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-stories-for-young-readers/a-visit-from-john-the-baptist?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007269-a-visit-from-john-the-baptist?lang=eng
 ---
 
 ---

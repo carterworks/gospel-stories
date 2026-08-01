@@ -1,7 +1,7 @@
 ---
 title: Alma Believed Abinadi
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/14-alma-believed-abinadi?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-14-alma-believed-abinadi?lang=eng
 ---
 
 ---

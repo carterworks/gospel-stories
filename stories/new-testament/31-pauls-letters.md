@@ -1,7 +1,7 @@
 ---
 title: Paul’s Letters
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/21-pauls-letters?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007268-21-pauls-letters?lang=eng
 ---
 
 ---

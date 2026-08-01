@@ -1,7 +1,7 @@
 ---
 title: Faithful People Followed Jesus
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/faithful-people-followed-jesus?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-faithful-people-followed-jesus?lang=eng
 ---
 
 ---

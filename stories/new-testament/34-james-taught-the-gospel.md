@@ -1,7 +1,7 @@
 ---
 title: James Taught the Gospel
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/23-james-taught-the-gospel?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007268-23-james-taught-the-gospel?lang=eng
 ---
 
 ---

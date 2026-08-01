@@ -1,7 +1,7 @@
 ---
 title: The Creation
 url: https://www.churchofjesuschrist.org/study/manual/old-testament-stories-for-young-readers/01-the-creation?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007270-01-the-creation?lang=eng
 ---
 
 ---

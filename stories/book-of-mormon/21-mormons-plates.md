@@ -1,7 +1,7 @@
 ---
 title: Mormon’s Plates
 url: https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/mormons-plates?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/pd60007267-mormons-plates?lang=eng
 ---
 
 ---

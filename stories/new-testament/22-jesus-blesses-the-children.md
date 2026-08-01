@@ -1,7 +1,7 @@
 ---
 title: Jesus Blesses the Children
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/17-jesus-blesses-the-children?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/2022-08-0130-jesus-blessed-the-children?lang=eng
 ---
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: Jesus Fed Many People
 url: https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers/07-jesus-fed-many-people?lang=eng
-video-url:
+video-url: https://www.churchofjesuschrist.org/media/video/2022-08-0080-jesus-fed-many-people?lang=eng
 ---
 
 ---
