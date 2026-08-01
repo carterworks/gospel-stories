@@ -9,7 +9,7 @@ title: "Journey to the Promised Land"
 source: "https://www.churchofjesuschrist.org/study/manual/book-of-mormon-stories-for-young-readers/01-journey-to-the-promised-land?lang=eng"
 author:
   - "[[churchofjesuschrist.org]]"
-published: 2015-12-31
+published: 2016-01-01
 created: 2026-08-01
 description: "Book of Mormon"
 tags:

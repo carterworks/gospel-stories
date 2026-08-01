@@ -1,0 +1,12 @@
+{
+  "name": "scripture-stories-for-young-readers",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert": "node scripts/convert-stories.mjs"
+  },
+  "dependencies": {
+    "defuddle": "^0.19.2",
+    "linkedom": "^0.18.13"
+  }
+}
