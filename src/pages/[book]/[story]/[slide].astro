@@ -38,7 +38,7 @@ const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideN
       <span class="slide-number">{String(slideNumber).padStart(2, "0")} / {String(totalSlides).padStart(2, "0")}</span>
     </header>
 
-    <section class="slide" aria-label={`Slide ${slideNumber}`}>
+    <section class="slide" aria-label={`Slide ${slideNumber}`} transition:animate="fade">
       <div class={`slide-images${slide.images.length > 1 ? " slide-images--gallery" : ""}`}>
         {slide.images.map((image) => (
           <img

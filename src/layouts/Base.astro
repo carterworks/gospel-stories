@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { ClientRouter } from "astro:transitions";
 
 const { title = "Stories for Young Readers", description } = Astro.props;
 const pageTitle = title === "Stories for Young Readers" ? title : `${title} | Stories for Young Readers`;
@@ -12,6 +13,7 @@ const pageTitle = title === "Stories for Young Readers" ? title : `${title} | St
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description ?? "Scripture stories for young readers."} />
     <title>{pageTitle}</title>
+    <ClientRouter />
   </head>
   <body>
     <slot />
