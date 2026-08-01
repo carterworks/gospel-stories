@@ -28,7 +28,7 @@ const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideN
 ---
 
 <Base title={story.title} description={story.description}>
-  <main class="story-page">
+  <main class="story-page" data-slide-navigation>
     <header class="story-header">
       <div>
         <a class="brand" href="/">Stories for Young Readers</a>
@@ -55,9 +55,16 @@ const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideN
     </section>
 
     <nav class="slide-nav" aria-label="Slide navigation">
-      <a href={previousHref}>{slideNumber === 1 ? "All stories" : "Previous"}</a>
+      <a data-slide-previous href={previousHref}>{slideNumber === 1 ? "All stories" : "Previous"}</a>
       <span>{story.title}</span>
-      {nextHref ? <a href={nextHref}>Next</a> : <span>End</span>}
+      {nextHref ? <a data-slide-next href={nextHref}>Next</a> : <span>End</span>}
     </nav>
   </main>
 </Base>
+
+<script>
+  import { setupSlideNavigation } from "../../../scripts/slide-navigation.js";
+
+  document.addEventListener("astro:page-load", setupSlideNavigation);
+  setupSlideNavigation();
+</script>

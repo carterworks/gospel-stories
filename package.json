@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "^0.3.5",
+    "@use-gesture/vanilla": "^10.3.1",
     "defuddle": "^0.19.2",
     "linkedom": "^0.18.13"
   },
