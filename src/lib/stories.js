@@ -76,6 +76,7 @@ async function parseStory(bookSlug, bookTitle, filename) {
     slug: basename(filename, ".md"),
     source: readValue(details, "source") || readValue(metadata, "url"),
     title,
+    videoUrl: readValue(metadata, "video-url"),
     slides,
   };
 }

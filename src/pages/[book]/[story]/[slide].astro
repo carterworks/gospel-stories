@@ -34,6 +34,11 @@ const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideN
         <a class="brand" href="/">Stories for Young Readers</a>
         <p class="story-context">{story.bookTitle}</p>
         <h1>{story.title}</h1>
+        {story.videoUrl && (
+          <p class="story-video">
+            <a href={story.videoUrl} target="_blank" rel="noreferrer">Watch video</a>
+          </p>
+        )}
       </div>
       <span class="slide-number">{String(slideNumber).padStart(2, "0")} / {String(totalSlides).padStart(2, "0")}</span>
     </header>

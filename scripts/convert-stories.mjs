@@ -87,12 +87,13 @@ function extractSlides(markdown) {
 function frontMatter(story, result) {
   const title = result.title || story.title;
   const published = formatDate(result.published);
+  const video = story.videoUrl ? `video-url: ${story.videoUrl}` : "video-url:";
 
   return [
     "---",
     `title: ${title}`,
     `url: ${story.url}`,
-    "video-url:",
+    video,
     "---",
     "",
     "---",
@@ -150,7 +151,18 @@ async function convertStory(story, index) {
   const number = String(index + 1).padStart(2, "0");
   const filename = `${number}-${slugify(result.title || story.title)}.md`;
   const outputPath = join(root, "stories", story.directory, filename);
-  const output = `${frontMatter({ ...story, title: result.title || story.title }, result)}\n\n${slides.join("\n\n---\n\n")}\n`;
+  let videoUrl = "";
+
+  try {
+    const existing = await readFile(outputPath, "utf8");
+    videoUrl = existing.match(/^video-url:\s*(.*)$/m)?.[1]?.trim() ?? "";
+  } catch (error) {
+    if (error.code !== "ENOENT") {
+      throw error;
+    }
+  }
+
+  const output = `${frontMatter({ ...story, title: result.title || story.title, videoUrl }, result)}\n\n${slides.join("\n\n---\n\n")}\n`;
 
   await mkdir(dirname(outputPath), { recursive: true });
   await writeFile(outputPath, output);

@@ -134,6 +134,16 @@ h1 {
   letter-spacing: -0.045em;
 }
 
+.story-video {
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.story-video a {
+  text-underline-offset: 0.2em;
+}
+
 .slide-number {
   align-self: flex-start;
   color: #6f6b63;
