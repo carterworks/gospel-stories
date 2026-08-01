@@ -1,0 +1,19 @@
+---
+import "../styles/global.css";
+
+const { title = "Stories for Young Readers", description } = Astro.props;
+const pageTitle = title === "Stories for Young Readers" ? title : `${title} | Stories for Young Readers`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description ?? "Scripture stories for young readers."} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

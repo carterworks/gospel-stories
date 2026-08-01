@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import { getBooks, getSlidePath } from "../lib/stories.js";
+
+const books = await getBooks();
+---
+
+<Base>
+  <main class="index-page">
+    <header class="index-intro">
+      <p class="eyebrow">Scripture stories</p>
+      <h1>Stories for Young Readers</h1>
+      <p>Choose a story to begin.</p>
+    </header>
+
+    <div class="book-list">
+      {books.map((book) => (
+        <section class="book" aria-labelledby={`${book.slug}-title`}>
+          <h2 id={`${book.slug}-title`}>{book.title}</h2>
+          <ol>
+            {book.stories.map((story) => (
+              <li>
+                <a href={getSlidePath(story, 1)}>{story.title}</a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
+    </div>
+  </main>
+</Base>

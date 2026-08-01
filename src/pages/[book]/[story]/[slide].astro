@@ -1,0 +1,63 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { getSlidePath, getStories } from "../../../lib/stories.js";
+
+export async function getStaticPaths() {
+  const stories = await getStories();
+
+  return stories.flatMap((story) =>
+    story.slides.map((slide, index) => ({
+      params: {
+        book: story.book,
+        story: story.slug,
+        slide: String(index + 1).padStart(2, "0"),
+      },
+      props: {
+        slide,
+        slideNumber: index + 1,
+        story,
+        totalSlides: story.slides.length,
+      },
+    })),
+  );
+}
+
+const { slide, slideNumber, story, totalSlides } = Astro.props;
+const previousHref = slideNumber === 1 ? "/" : getSlidePath(story, slideNumber - 1);
+const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideNumber + 1);
+---
+
+<Base title={story.title} description={story.description}>
+  <main class="story-page">
+    <header class="story-header">
+      <div>
+        <a class="brand" href="/">Stories for Young Readers</a>
+        <p class="story-context">{story.bookTitle}</p>
+        <h1>{story.title}</h1>
+      </div>
+      <span class="slide-number">{String(slideNumber).padStart(2, "0")} / {String(totalSlides).padStart(2, "0")}</span>
+    </header>
+
+    <section class="slide" aria-label={`Slide ${slideNumber}`}>
+      <div class={`slide-images${slide.images.length > 1 ? " slide-images--gallery" : ""}`}>
+        {slide.images.map((image) => (
+          <img
+            src={image.src}
+            alt={image.alt || story.title}
+            loading={slideNumber === 1 ? "eager" : "lazy"}
+            decoding="async"
+          />
+        ))}
+      </div>
+      <article class="slide-copy">
+        {slide.html && <div class="prose" set:html={slide.html}></div>}
+      </article>
+    </section>
+
+    <nav class="slide-nav" aria-label="Slide navigation">
+      <a href={previousHref}>{slideNumber === 1 ? "All stories" : "Previous"}</a>
+      <span>{story.title}</span>
+      {nextHref ? <a href={nextHref}>Next</a> : <span>End</span>}
+    </nav>
+  </main>
+</Base>
