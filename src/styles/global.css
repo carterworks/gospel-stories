@@ -41,7 +41,20 @@ a:focus-visible {
 }
 
 .index-page {
-  padding: 5rem 0 6rem;
+  padding: 5rem 0;
+}
+
+.site-footer {
+  width: min(100% - 3rem, 72rem);
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+}
+
+.site-footer p {
+  margin: 0;
 }
 
 .index-intro {
@@ -264,12 +277,16 @@ h1 {
     width: min(100% - 2rem, 72rem);
   }
 
+  .site-footer {
+    width: min(100% - 2rem, 72rem);
+  }
+
   .story-page {
     width: 100%;
   }
 
   .index-page {
-    padding: 3rem 0 4rem;
+    padding: 3rem 0;
   }
 
   .index-intro {

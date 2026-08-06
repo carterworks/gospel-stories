@@ -3,6 +3,12 @@ import Base from "../layouts/Base.astro";
 import { getBooks, getSlidePath } from "../lib/stories.js";
 
 const books = await getBooks();
+const buildTime = new Date();
+const formattedBuildTime = new Intl.DateTimeFormat("en", {
+  dateStyle: "medium",
+  timeStyle: "short",
+  timeZone: "UTC",
+}).format(buildTime);
 ---
 
 <Base>
@@ -28,4 +34,7 @@ const books = await getBooks();
       ))}
     </div>
   </main>
+  <footer class="site-footer">
+    <p>Built <time datetime={buildTime.toISOString()}>{formattedBuildTime} UTC</time></p>
+  </footer>
 </Base>
