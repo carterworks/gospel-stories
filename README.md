@@ -11,10 +11,10 @@ Includes:
 
 ## Run locally
 
-Install dependencies with `nub`, then start Astro:
+Install dependencies with `pnpm`, then start Astro with `nub`:
 
 ```sh
-nub install
+pnpm install
 nub run dev
 ```
 
@@ -26,6 +26,10 @@ nub run build
 
 ## Deploy
 
-Pushes to `main` build and deploy the site to Cloudflare Pages at `https://gospelstories.carter.works`.
+Connect the GitHub repository to Cloudflare Pages and use these build settings:
 
-The GitHub repository needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets.
+* Production branch: `main`
+* Build command: `pnpm build`
+* Build output directory: `dist`
+
+Cloudflare Pages builds and deploys pushes to `main` at `https://gospelstories.carter.works`.

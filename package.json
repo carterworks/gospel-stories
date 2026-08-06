@@ -2,6 +2,7 @@
   "name": "scripture-stories-for-young-readers",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.18.0",
   "scripts": {
     "convert": "nub scripts/convert-stories.mjs",
     "dev": "astro dev",
@@ -15,18 +16,10 @@
     "defuddle": "^0.19.2",
     "linkedom": "^0.18.13"
   },
-  "devEngines": {
-    "packageManager": {
-      "name": "nub",
-      "version": "^0.6.0",
-      "onFail": "warn"
-    }
-  },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
     "@types/node": "^26.1.2",
     "astro": "^7.1.6",
-    "typescript": "^6",
-    "wrangler": "^4.118.0"
+    "typescript": "^6"
   }
 }
