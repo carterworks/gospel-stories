@@ -68,7 +68,7 @@ const nextSlide = isFinalSlide ? nextStory?.slides[0] : story.slides[slideNumber
     <nav class="slide-nav" aria-label="Slide navigation">
       <a data-slide-previous href={previousHref}>{slideNumber === 1 ? "All stories" : "Previous"}</a>
       <span>{story.title}</span>
-      {nextHref ? <a data-slide-next href={nextHref}>{isFinalSlide ? "Next story" : "Next"}</a> : <span>End</span>}
+      {nextHref ? <a data-slide-next data-astro-prefetch="load" href={nextHref}>{isFinalSlide ? "Next story" : "Next"}</a> : <span>End</span>}
     </nav>
 
     {nextSlide && (
