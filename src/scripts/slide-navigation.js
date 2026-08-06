@@ -45,8 +45,6 @@ export function setupSlideNavigation() {
 
     nextImages.content.querySelectorAll("img").forEach((source) => {
       const image = new Image();
-      image.sizes = source.sizes;
-      image.srcset = source.srcset;
       image.src = source.src;
     });
   });

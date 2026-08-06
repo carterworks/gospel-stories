@@ -7,9 +7,6 @@ export default defineConfig({
   build: {
     format: "directory",
   },
-  image: {
-    domains: ["www.churchofjesuschrist.org"],
-  },
   markdown: {
     processor: satteri(),
   },
