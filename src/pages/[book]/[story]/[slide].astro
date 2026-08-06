@@ -45,11 +45,12 @@ const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideN
 
     <section class="slide" aria-label={`Slide ${slideNumber}`} transition:animate="fade">
       <div class={`slide-images${slide.images.length > 1 ? " slide-images--gallery" : ""}`}>
-        {slide.images.map((image) => (
+        {slide.images.map((image, index) => (
           <img
             src={image.src}
             alt={image.alt || story.title}
-            loading={slideNumber === 1 ? "eager" : "lazy"}
+            loading="eager"
+            fetchpriority={index === 0 ? "high" : "auto"}
             decoding="async"
           />
         ))}
