@@ -4,6 +4,8 @@ import { fileURLToPath } from "node:url";
 import { parseHTML } from "linkedom";
 import { Defuddle } from "defuddle/node";
 
+/** @typedef {{ directory: string, description: string, position: number, title: string, url: string, videoUrl?: string }} Story */
+
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const indexPath = join(root, "index.md");
 const created = new Date().toISOString().slice(0, 10);
@@ -16,8 +18,13 @@ const bookDirectories = new Map([
   ["Doctrine and Covenants", "doctrine-and-covenants"],
 ]);
 
+/** @param {number} milliseconds */
 const sleep = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 
+/**
+ * @param {string} index
+ * @returns {Story[]}
+ */
 function parseStories(index) {
   return index
     .split(/^## /m)
@@ -42,6 +49,7 @@ function parseStories(index) {
     });
 }
 
+/** @param {string} value */
 function slugify(value) {
   return value
     .normalize("NFKD")
@@ -51,6 +59,7 @@ function slugify(value) {
     .toLowerCase();
 }
 
+/** @param {string} value */
 function formatDate(value) {
   if (!value) {
     return "";
@@ -60,6 +69,7 @@ function formatDate(value) {
   return Number.isNaN(date.valueOf()) ? "" : date.toISOString().slice(0, 10);
 }
 
+/** @param {string} markdown */
 function extractSlides(markdown) {
   const firstImage = markdown.search(/^!\[[^\n]*\]\([^)]+\)$/m);
   const story = (firstImage < 0 ? markdown : markdown.slice(firstImage)).trim();
@@ -84,6 +94,10 @@ function extractSlides(markdown) {
   return slides.filter(Boolean);
 }
 
+/**
+ * @param {Story} story
+ * @param {import("defuddle/node").DefuddleResponse} result
+ */
 function frontMatter(story, result) {
   const title = result.title || story.title;
   const published = formatDate(result.published);
@@ -110,6 +124,7 @@ function frontMatter(story, result) {
   ].join("\n");
 }
 
+/** @param {Story} story */
 async function fetchStory(story) {
   for (let attempt = 0; attempt < 3; attempt += 1) {
     try {
@@ -124,7 +139,8 @@ async function fetchStory(story) {
       return response.text();
     } catch (error) {
       if (attempt === 2) {
-        throw new Error(`Failed to fetch ${story.url}: ${error.message}`);
+        const message = error instanceof Error ? error.message : String(error);
+        throw new Error(`Failed to fetch ${story.url}: ${message}`);
       }
 
       await sleep(500 * 2 ** attempt);
@@ -134,6 +150,10 @@ async function fetchStory(story) {
   throw new Error(`Failed to fetch ${story.url}`);
 }
 
+/**
+ * @param {Story} story
+ * @param {number} index
+ */
 async function convertStory(story, index) {
   const html = await fetchStory(story);
   const { document } = parseHTML(html);
@@ -157,7 +177,7 @@ async function convertStory(story, index) {
     const existing = await readFile(outputPath, "utf8");
     videoUrl = existing.match(/^video-url:\s*(.*)$/m)?.[1]?.trim() ?? "";
   } catch (error) {
-    if (error.code !== "ENOENT") {
+    if (!(error instanceof Error && "code" in error && error.code === "ENOENT")) {
       throw error;
     }
   }
@@ -169,6 +189,11 @@ async function convertStory(story, index) {
   console.log(outputPath.replace(`${root}/`, ""));
 }
 
+/**
+ * @template T
+ * @param {T[]} items
+ * @param {(item: T, index: number) => Promise<void>} callback
+ */
 async function mapWithConcurrency(items, callback) {
   let next = 0;
 

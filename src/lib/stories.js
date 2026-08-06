@@ -2,6 +2,11 @@ import { readdir, readFile } from "node:fs/promises";
 import { basename, join } from "node:path";
 import { createSatteriMarkdownProcessor } from "@astrojs/markdown-satteri";
 
+/** @typedef {{ alt: string, src: string }} StoryImage */
+/** @typedef {{ images: StoryImage[], html: string }} Slide */
+/** @typedef {{ book: string, bookTitle: string, description: string, slug: string, source: string, title: string, videoUrl: string, slides: Slide[] }} Story */
+/** @typedef {{ slug: string, title: string, stories: Story[] }} Book */
+
 const storiesDirectory = join(process.cwd(), "stories");
 const bookDefinitions = [
   ["book-of-mormon", "Book of Mormon"],
@@ -10,9 +15,15 @@ const bookDefinitions = [
   ["doctrine-and-covenants", "Doctrine and Covenants"],
 ];
 
+/** @type {Promise<Book[]> | undefined} */
 let booksPromise;
 let markdownRendererPromise;
 
+/**
+ * @param {string} block
+ * @param {string} key
+ * @returns {string}
+ */
 function readValue(block, key) {
   const match = block.match(new RegExp(`^${key}:\\s*(.*)$`, "m"));
   const value = match?.[1]?.trim() ?? "";
@@ -28,6 +39,7 @@ function readValue(block, key) {
   return value;
 }
 
+/** @param {string} markdown */
 async function renderMarkdown(markdown) {
   if (!markdown) {
     return "";
@@ -39,6 +51,10 @@ async function renderMarkdown(markdown) {
   return result.code;
 }
 
+/**
+ * @param {string} source
+ * @returns {Promise<Slide>}
+ */
 async function parseSlide(source) {
   const imagePattern = /!\[([^\]]*)\]\(([^)]+)\)/g;
   const images = [...source.matchAll(imagePattern)].map(([, alt, src]) => ({ alt, src }));
@@ -50,6 +66,12 @@ async function parseSlide(source) {
   };
 }
 
+/**
+ * @param {string} bookSlug
+ * @param {string} bookTitle
+ * @param {string} filename
+ * @returns {Promise<Story>}
+ */
 async function parseStory(bookSlug, bookTitle, filename) {
   const markdown = await readFile(join(storiesDirectory, bookSlug, filename), "utf8");
   const match = markdown.match(
@@ -81,6 +103,7 @@ async function parseStory(bookSlug, bookTitle, filename) {
   };
 }
 
+/** @returns {Promise<Book[]>} */
 async function loadBooks() {
   return Promise.all(
     bookDefinitions.map(async ([slug, title]) => {
@@ -96,6 +119,7 @@ async function loadBooks() {
   );
 }
 
+/** @returns {Promise<Book[]>} */
 export function getBooks() {
   booksPromise ??= loadBooks();
   return booksPromise;
@@ -106,6 +130,10 @@ export async function getStories() {
   return books.flatMap((book) => book.stories);
 }
 
+/**
+ * @param {Story} story
+ * @param {number} slideNumber
+ */
 export function getSlidePath(story, slideNumber) {
   return `/${story.book}/${story.slug}/${String(slideNumber).padStart(2, "0")}/`;
 }

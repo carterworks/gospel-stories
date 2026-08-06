@@ -2,12 +2,13 @@ import { DragGesture } from "@use-gesture/vanilla";
 
 let cleanup = () => {};
 
+/** @param {EventTarget | null} target */
 function isEditable(target) {
   return (
     target instanceof HTMLInputElement ||
     target instanceof HTMLTextAreaElement ||
     target instanceof HTMLSelectElement ||
-    target?.isContentEditable
+    (target instanceof HTMLElement && target.isContentEditable)
   );
 }
 
@@ -19,18 +20,24 @@ export function setupSlideNavigation() {
     return;
   }
 
-  const previous = page.querySelector("[data-slide-previous]");
-  const next = page.querySelector("[data-slide-next]");
+  const previous = /** @type {HTMLAnchorElement | null} */ (
+    page.querySelector("[data-slide-previous]")
+  );
+  const next = /** @type {HTMLAnchorElement | null} */ (
+    page.querySelector("[data-slide-next]")
+  );
   const nextImages = page.querySelector("[data-next-slide-images]");
   let active = true;
 
-  const currentImages = [...page.querySelectorAll(".slide-images img")];
+  const currentImages = /** @type {NodeListOf<HTMLImageElement>} */ (
+    page.querySelectorAll(".slide-images img")
+  );
   Promise.all(
-    currentImages.map(
+    [...currentImages].map(
       (image) =>
         new Promise((resolve) => {
           if (image.complete) {
-            resolve();
+            resolve(undefined);
             return;
           }
 
@@ -49,6 +56,7 @@ export function setupSlideNavigation() {
     });
   });
 
+  /** @param {KeyboardEvent} event */
   function handleKeydown(event) {
     if (isEditable(event.target)) {
       return;
