@@ -25,14 +25,6 @@ jobs:
       - name: Install dependencies
         run: nub install --frozen-lockfile
 
-      - name: Restore Astro image cache
-        uses: actions/cache@v4
-        with:
-          path: node_modules/.astro
-          key: astro-images-${{ runner.os }}-${{ hashFiles('stories/**/*.md', 'astro.config.mjs', 'package.json', 'nub.lock') }}
-          restore-keys: |
-            astro-images-${{ runner.os }}-
-
       - name: Build site
         run: nub run build
 
