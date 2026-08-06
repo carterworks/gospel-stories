@@ -2,12 +2,13 @@ import { DragGesture } from "@use-gesture/vanilla";
 
 let cleanup = () => {};
 
+/** @param {EventTarget | null} target */
 function isEditable(target) {
   return (
     target instanceof HTMLInputElement ||
     target instanceof HTMLTextAreaElement ||
     target instanceof HTMLSelectElement ||
-    target?.isContentEditable
+    (target instanceof HTMLElement && target.isContentEditable)
   );
 }
 
@@ -19,9 +20,43 @@ export function setupSlideNavigation() {
     return;
   }
 
-  const previous = page.querySelector("[data-slide-previous]");
-  const next = page.querySelector("[data-slide-next]");
+  const previous = /** @type {HTMLAnchorElement | null} */ (
+    page.querySelector("[data-slide-previous]")
+  );
+  const next = /** @type {HTMLAnchorElement | null} */ (
+    page.querySelector("[data-slide-next]")
+  );
+  const nextImages = page.querySelector("[data-next-slide-images]");
+  let active = true;
 
+  const currentImages = /** @type {NodeListOf<HTMLImageElement>} */ (
+    page.querySelectorAll(".slide-images img")
+  );
+  Promise.all(
+    [...currentImages].map(
+      (image) =>
+        new Promise((resolve) => {
+          if (image.complete) {
+            resolve(undefined);
+            return;
+          }
+
+          image.addEventListener("load", resolve, { once: true });
+          image.addEventListener("error", resolve, { once: true });
+        }),
+    ),
+  ).then(() => {
+    if (!active || !(nextImages instanceof HTMLTemplateElement)) {
+      return;
+    }
+
+    nextImages.content.querySelectorAll("img").forEach((source) => {
+      const image = new Image();
+      image.src = source.src;
+    });
+  });
+
+  /** @param {KeyboardEvent} event */
   function handleKeydown(event) {
     if (isEditable(event.target)) {
       return;
@@ -59,6 +94,7 @@ export function setupSlideNavigation() {
   );
 
   cleanup = () => {
+    active = false;
     document.removeEventListener("keydown", handleKeydown);
     gesture.destroy();
     cleanup = () => {};

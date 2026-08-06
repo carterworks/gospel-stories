@@ -5,7 +5,7 @@ import { getSlidePath, getStories } from "../../../lib/stories.js";
 export async function getStaticPaths() {
   const stories = await getStories();
 
-  return stories.flatMap((story) =>
+  return stories.flatMap((story, storyIndex) =>
     story.slides.map((slide, index) => ({
       params: {
         book: story.book,
@@ -13,6 +13,7 @@ export async function getStaticPaths() {
         slide: String(index + 1).padStart(2, "0"),
       },
       props: {
+        nextStory: stories[storyIndex + 1],
         slide,
         slideNumber: index + 1,
         story,
@@ -22,9 +23,13 @@ export async function getStaticPaths() {
   );
 }
 
-const { slide, slideNumber, story, totalSlides } = Astro.props;
+const { nextStory, slide, slideNumber, story, totalSlides } = Astro.props;
 const previousHref = slideNumber === 1 ? "/" : getSlidePath(story, slideNumber - 1);
-const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideNumber + 1);
+const isFinalSlide = slideNumber === totalSlides;
+const nextHref = isFinalSlide
+  ? nextStory && getSlidePath(nextStory, 1)
+  : getSlidePath(story, slideNumber + 1);
+const nextSlide = isFinalSlide ? nextStory?.slides[0] : story.slides[slideNumber];
 ---
 
 <Base title={story.title} description={story.description}>
@@ -45,11 +50,12 @@ const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideN
 
     <section class="slide" aria-label={`Slide ${slideNumber}`} transition:animate="fade">
       <div class={`slide-images${slide.images.length > 1 ? " slide-images--gallery" : ""}`}>
-        {slide.images.map((image) => (
+        {slide.images.map((image, index) => (
           <img
             src={image.src}
             alt={image.alt || story.title}
-            loading={slideNumber === 1 ? "eager" : "lazy"}
+            loading="eager"
+            fetchpriority={index === 0 ? "high" : "auto"}
             decoding="async"
           />
         ))}
@@ -62,8 +68,16 @@ const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideN
     <nav class="slide-nav" aria-label="Slide navigation">
       <a data-slide-previous href={previousHref}>{slideNumber === 1 ? "All stories" : "Previous"}</a>
       <span>{story.title}</span>
-      {nextHref ? <a data-slide-next href={nextHref}>Next</a> : <span>End</span>}
+      {nextHref ? <a data-slide-next href={nextHref}>{isFinalSlide ? "Next story" : "Next"}</a> : <span>End</span>}
     </nav>
+
+    {nextSlide && (
+      <template data-next-slide-images>
+        {nextSlide.images.map((image) => (
+          <img src={image.src} alt="" />
+        ))}
+      </template>
+    )}
   </main>
 </Base>
 

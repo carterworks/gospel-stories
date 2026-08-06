@@ -16,8 +16,6 @@ tags:
   - "clippings"
 ---
 
-![](https://www.churchofjesuschrist.org/imgs/undefined/full/!640,/0/default)
-
 0:49
 
 ---
