@@ -26,6 +26,7 @@ export async function getStaticPaths() {
 const { slide, slideNumber, story, totalSlides } = Astro.props;
 const previousHref = slideNumber === 1 ? "/" : getSlidePath(story, slideNumber - 1);
 const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideNumber + 1);
+const nextSlide = story.slides[slideNumber];
 ---
 
 <Base title={story.title} description={story.description}>
@@ -70,6 +71,21 @@ const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideN
       <span>{story.title}</span>
       {nextHref ? <a data-slide-next href={nextHref}>Next</a> : <span>End</span>}
     </nav>
+
+    {nextSlide && (
+      <template data-next-slide-images>
+        {nextSlide.images.map((image) => (
+          <Image
+            src={image.src}
+            alt=""
+            inferSize
+            widths={[320, 640]}
+            sizes="(orientation: portrait) 100vw, 50vw"
+            format="webp"
+          />
+        ))}
+      </template>
+    )}
   </main>
 </Base>
 

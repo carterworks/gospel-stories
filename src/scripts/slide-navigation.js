@@ -21,6 +21,35 @@ export function setupSlideNavigation() {
 
   const previous = page.querySelector("[data-slide-previous]");
   const next = page.querySelector("[data-slide-next]");
+  const nextImages = page.querySelector("[data-next-slide-images]");
+  let active = true;
+
+  const currentImages = [...page.querySelectorAll(".slide-images img")];
+  Promise.all(
+    currentImages.map(
+      (image) =>
+        new Promise((resolve) => {
+          if (image.complete) {
+            resolve();
+            return;
+          }
+
+          image.addEventListener("load", resolve, { once: true });
+          image.addEventListener("error", resolve, { once: true });
+        }),
+    ),
+  ).then(() => {
+    if (!active || !(nextImages instanceof HTMLTemplateElement)) {
+      return;
+    }
+
+    nextImages.content.querySelectorAll("img").forEach((source) => {
+      const image = new Image();
+      image.sizes = source.sizes;
+      image.srcset = source.srcset;
+      image.src = source.src;
+    });
+  });
 
   function handleKeydown(event) {
     if (isEditable(event.target)) {
@@ -59,6 +88,7 @@ export function setupSlideNavigation() {
   );
 
   cleanup = () => {
+    active = false;
     document.removeEventListener("keydown", handleKeydown);
     gesture.destroy();
     cleanup = () => {};
