@@ -1,5 +1,6 @@
 ---
 import Base from "../../../layouts/Base.astro";
+import { Image } from "astro:assets";
 import { getSlidePath, getStories } from "../../../lib/stories.js";
 
 export async function getStaticPaths() {
@@ -46,9 +47,13 @@ const nextHref = slideNumber === totalSlides ? null : getSlidePath(story, slideN
     <section class="slide" aria-label={`Slide ${slideNumber}`} transition:animate="fade">
       <div class={`slide-images${slide.images.length > 1 ? " slide-images--gallery" : ""}`}>
         {slide.images.map((image, index) => (
-          <img
+          <Image
             src={image.src}
             alt={image.alt || story.title}
+            inferSize
+            widths={[320, 640]}
+            sizes="(orientation: portrait) 100vw, 50vw"
+            format="webp"
             loading="eager"
             fetchpriority={index === 0 ? "high" : "auto"}
             decoding="async"
