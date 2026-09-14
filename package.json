@@ -4,7 +4,7 @@
   "type": "module",
   "packageManager": "pnpm@11.18.0",
   "scripts": {
-    "convert": "nub scripts/convert-stories.mjs",
+    "convert": "node scripts/convert-stories.mjs",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
