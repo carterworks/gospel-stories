@@ -258,7 +258,7 @@ h1 {
   min-height: 0;
   align-items: center;
   justify-content: center;
-  padding: clamp(0.5rem, min(3vw, 2.5vh), 3rem);
+  padding: clamp(0.5rem, 2.5vmin, 3rem);
   overflow: hidden;
 }
 
@@ -286,10 +286,10 @@ h1 {
   min-width: 0;
   min-height: 0;
   align-items: center;
-  padding: clamp(0.5rem, min(2vw, 2vh), 2rem);
+  padding: clamp(0.5rem, 2vmin, 2rem);
   overflow: hidden;
   font-family: var(--font-serif);
-  font-size: clamp(0.85rem, min(2.5vw, 3.25vh), 1.8rem);
+  font-size: clamp(0.85rem, 2.5vmin, 1.8rem);
   line-height: 1.45;
 }
 
@@ -316,7 +316,7 @@ h1 {
   padding: clamp(0.5rem, 1.5vh, 1rem) clamp(1rem, 3vw, 3rem) 0;
   border-top: 1px solid var(--border);
   color: var(--text-secondary);
-  font-size: clamp(0.75rem, min(2vw, 1.75vh), 0.9rem);
+  font-size: clamp(0.75rem, 1.75vmin, 0.9rem);
 }
 
 .slide-nav a {
@@ -381,6 +381,6 @@ h1 {
   }
 
   .slide-copy {
-    font-size: clamp(0.75rem, min(5vw, calc(2.2vh - 0.03rem)), 1.7rem);
+    font-size: clamp(0.75rem, calc(2.2vmin - 0.03rem), 1.7rem);
   }
 }
