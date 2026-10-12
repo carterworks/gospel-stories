@@ -24,12 +24,16 @@ Build the static site with:
 nub run build
 ```
 
-## Deploy
+## Deployment
 
-Connect the GitHub repository to Cloudflare Pages and use these build settings:
+The site deploys to Cloudflare as a Worker serving static assets, defined in
+[`alchemy.run.ts`](./alchemy.run.ts). Alchemy builds the site, hashes `dist/`,
+and uploads it. Pushes to `main` deploy automatically via GitHub Actions.
 
-* Production branch: `main`
-* Build command: `pnpm build`
-* Build output directory: `dist`
+```sh
+pnpm run deploy
+```
 
-Cloudflare Pages builds and deploys pushes to `main` at `https://gospelstories.carter.works`.
+Locally, authenticate first with `pnpm exec alchemy profile edit`. CI runs the
+same command as `alchemy deploy --stage prod` using `CLOUDFLARE_API_TOKEN` and
+`CLOUDFLARE_ACCOUNT_ID`.
