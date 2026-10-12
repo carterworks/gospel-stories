@@ -34,7 +34,7 @@ export default Alchemy.Stack(
         zoneId: zone.zoneId,
         name: "gospelstories.carter.works",
         type: "CNAME",
-        content: "gospelstories.pages.dev",
+        content: "gospelstories.carterworks.workers.dev",
         proxied: true,
       }).pipe(adopt(true));
 
