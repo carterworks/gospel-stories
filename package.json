@@ -8,7 +8,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "typecheck": "astro check"
+    "typecheck": "astro check",
+    "deploy": "alchemy deploy"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "^0.3.5",
@@ -18,8 +19,11 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "@effect/platform-node": "4.0.3",
     "@types/node": "^26.1.2",
+    "alchemy": "2.0.0-beta.81",
     "astro": "^7.1.6",
+    "effect": "4.0.3",
     "typescript": "^6"
   }
 }
