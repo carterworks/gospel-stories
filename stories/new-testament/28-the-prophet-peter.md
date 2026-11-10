@@ -16,8 +16,6 @@ tags:
   - "clippings"
 ---
 
----
-
 ![Alt text](https://www.churchofjesuschrist.org/imgs/3be77203724f11ed826beeeeac1ee04c3dd7b763/full/%21640%2C/0/default)
 
 Illustrations by Apryl Stott

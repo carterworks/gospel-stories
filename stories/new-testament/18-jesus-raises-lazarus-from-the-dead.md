@@ -16,8 +16,6 @@ tags:
   - "clippings"
 ---
 
----
-
 ![Jesus sitting with Mary, Martha, and Lazarus](https://www.churchofjesuschrist.org/imgs/24b80c49338211ed9c3feeeeac1ec68510082ccd/full/%21640%2C/0/default)
 
 Illustrations by Apryl Stott
