@@ -175,7 +175,7 @@ async function convertStory(story, index) {
 
   try {
     const existing = await readFile(outputPath, "utf8");
-    videoUrl = existing.match(/^video-url:\s*(.*)$/m)?.[1]?.trim() ?? "";
+    videoUrl = existing.match(/^video-url:[ \t]*(.*)$/m)?.[1]?.trim() ?? "";
   } catch (error) {
     if (!(error instanceof Error && "code" in error && error.code === "ENOENT")) {
       throw error;
