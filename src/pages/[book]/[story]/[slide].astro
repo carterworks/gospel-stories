@@ -89,7 +89,10 @@ const nextSlide = isFinalSlide ? nextStory?.slides[0] : story.slides[slideNumber
         ))}
       </div>
       <article class="slide-copy">
-        {slide.html && <div class="prose" set:html={slide.html}></div>}
+        <div class="prose">
+          {slideNumber === 1 && <h2 class="slide-title">{story.title}</h2>}
+          <Fragment set:html={slide.html} />
+        </div>
       </article>
     </section>
 

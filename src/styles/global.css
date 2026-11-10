@@ -302,6 +302,14 @@ h1 {
   margin: auto;
 }
 
+.slide-title {
+  margin: 0 0 0.5em;
+  font-family: var(--font-sans);
+  font-size: 2em;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
 .prose p {
   margin: 0 0 clamp(0.5em, 1.5vh, 1.25em);
 }
