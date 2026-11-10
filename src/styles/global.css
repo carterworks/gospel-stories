@@ -104,7 +104,18 @@ h1 {
   background: #fff;
 }
 
-.book h2 {
+.collection + .collection {
+  margin-top: 4rem;
+}
+
+.collection > h2 {
+  margin-bottom: 1.25rem;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  letter-spacing: -0.015em;
+}
+
+.book h3 {
+  margin-top: 0;
   margin-bottom: 1rem;
   color: var(--text);
   font-size: 1.75rem;

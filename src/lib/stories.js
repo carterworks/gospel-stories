@@ -6,17 +6,32 @@ import { createSatteriMarkdownProcessor } from "@astrojs/markdown-satteri";
 /** @typedef {{ images: StoryImage[], html: string }} Slide */
 /** @typedef {{ book: string, bookTitle: string, description: string, slug: string, source: string, title: string, videoUrl: string, slides: Slide[] }} Story */
 /** @typedef {{ slug: string, title: string, stories: Story[] }} Book */
+/** @typedef {{ title: string, books: Book[] }} Collection */
 
 const storiesDirectory = join(process.cwd(), "stories");
-const bookDefinitions = [
-  ["book-of-mormon", "Book of Mormon"],
-  ["old-testament", "Old Testament"],
-  ["new-testament", "New Testament"],
-  ["doctrine-and-covenants", "Doctrine and Covenants"],
+const collectionDefinitions = [
+  {
+    title: "Stories for Young Readers",
+    books: [
+      ["book-of-mormon", "Book of Mormon"],
+      ["old-testament", "Old Testament"],
+      ["new-testament", "New Testament"],
+      ["doctrine-and-covenants", "Doctrine and Covenants"],
+    ],
+  },
+  {
+    title: "Scripture Stories",
+    books: [
+      ["book-of-mormon-stories", "Book of Mormon Stories"],
+      ["old-testament-stories", "Old Testament Stories"],
+      ["new-testament-stories", "New Testament Stories"],
+      ["doctrine-and-covenants-stories", "Doctrine and Covenants Stories"],
+    ],
+  },
 ];
 
-/** @type {Promise<Book[]> | undefined} */
-let booksPromise;
+/** @type {Promise<Collection[]> | undefined} */
+let collectionsPromise;
 let markdownRendererPromise;
 
 /**
@@ -103,31 +118,34 @@ async function parseStory(bookSlug, bookTitle, filename) {
   };
 }
 
-/** @returns {Promise<Book[]>} */
-async function loadBooks() {
-  return Promise.all(
-    bookDefinitions.map(async ([slug, title]) => {
-      const filenames = (await readdir(join(storiesDirectory, slug)))
-        .filter((filename) => filename.endsWith(".md"))
-        .sort((left, right) => left.localeCompare(right, undefined, { numeric: true }));
-      const stories = await Promise.all(
-        filenames.map((filename) => parseStory(slug, title, filename)),
-      );
+/**
+ * @param {string} slug
+ * @param {string} title
+ * @returns {Promise<Book>}
+ */
+async function loadBook(slug, title) {
+  const filenames = (await readdir(join(storiesDirectory, slug)))
+    .filter((filename) => filename.endsWith(".md"))
+    .sort((left, right) => left.localeCompare(right, undefined, { numeric: true }));
+  const stories = await Promise.all(filenames.map((filename) => parseStory(slug, title, filename)));
 
-      return { slug, title, stories };
-    }),
-  );
+  return { slug, title, stories };
 }
 
-/** @returns {Promise<Book[]>} */
-export function getBooks() {
-  booksPromise ??= loadBooks();
-  return booksPromise;
+/** @returns {Promise<Collection[]>} */
+export function getCollections() {
+  collectionsPromise ??= Promise.all(
+    collectionDefinitions.map(async ({ title, books }) => ({
+      title,
+      books: await Promise.all(books.map(([slug, bookTitle]) => loadBook(slug, bookTitle))),
+    })),
+  );
+  return collectionsPromise;
 }
 
 export async function getStories() {
-  const books = await getBooks();
-  return books.flatMap((book) => book.stories);
+  const collections = await getCollections();
+  return collections.flatMap((collection) => collection.books.flatMap((book) => book.stories));
 }
 
 /**

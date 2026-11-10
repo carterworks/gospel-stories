@@ -1,8 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
-import { getBooks, getSlidePath } from "../lib/stories.js";
+import { getCollections, getSlidePath } from "../lib/stories.js";
 
-const books = await getBooks();
+const collections = await getCollections();
 const buildTime = new Date();
 const formattedBuildTime = new Intl.DateTimeFormat("en", {
   dateStyle: "medium",
@@ -19,20 +19,25 @@ const formattedBuildTime = new Intl.DateTimeFormat("en", {
       <p>Choose a story to begin.</p>
     </header>
 
-    <div class="book-list">
-      {books.map((book) => (
-        <section class="book" aria-labelledby={`${book.slug}-title`}>
-          <h2 id={`${book.slug}-title`}>{book.title}</h2>
-          <ol>
-            {book.stories.map((story) => (
-              <li>
-                <a href={getSlidePath(story, 1)}>{story.title}</a>
-              </li>
-            ))}
-          </ol>
-        </section>
-      ))}
-    </div>
+    {collections.map((collection) => (
+      <section class="collection">
+        <h2>{collection.title}</h2>
+        <div class="book-list">
+          {collection.books.map((book) => (
+            <section class="book" aria-labelledby={`${book.slug}-title`}>
+              <h3 id={`${book.slug}-title`}>{book.title}</h3>
+              <ol>
+                {book.stories.map((story) => (
+                  <li>
+                    <a href={getSlidePath(story, 1)}>{story.title}</a>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          ))}
+        </div>
+      </section>
+    ))}
   </main>
   <footer class="site-footer">
     <p>Built <time datetime={buildTime.toISOString()}>{formattedBuildTime} UTC</time></p>
