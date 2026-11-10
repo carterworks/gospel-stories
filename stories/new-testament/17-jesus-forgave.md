@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fe1b44e2a30b9265eabf5ee08c8c75dcb38fccb41%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:8
-
 [Matthew 18:21–22](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/18?lang=eng&id=p21-p22#p21); [Luke 7:37–48](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/7?lang=eng&id=p37-p48#p37); [11:1–4](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/11?lang=eng&id=p1-p4#p1); [23:34](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng&id=p34#p34)
 
 ---

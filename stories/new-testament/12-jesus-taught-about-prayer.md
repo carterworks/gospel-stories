@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F7y2gho8artnp7ukedz8cf5ahmw1ltgejlxtjz234%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:1
-
 [Matthew 6:5–13](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=eng&id=p5-p13#p5)
 
 ---

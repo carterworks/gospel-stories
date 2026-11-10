@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F15353a7d7495b81c05ea9e8d74ac78fa4d9728ca%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:1
-
 You can read the story of Abraham and Sarah in [Genesis 15](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/15?lang=eng), [17](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng), and [21](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng).
 
 ---

@@ -63,15 +63,6 @@ a:focus-visible {
   margin-bottom: 4rem;
 }
 
-.eyebrow {
-  margin: 0 0 0.75rem;
-  color: var(--text-secondary);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 h1,
 h2,
 p {
@@ -104,7 +95,18 @@ h1 {
   background: #fff;
 }
 
-.book h2 {
+.collection + .collection {
+  margin-top: 4rem;
+}
+
+.collection > h2 {
+  margin-bottom: 1.25rem;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  letter-spacing: -0.015em;
+}
+
+.book h3 {
+  margin-top: 0;
   margin-bottom: 1rem;
   color: var(--text);
   font-size: 1.75rem;
@@ -300,6 +302,14 @@ h1 {
   width: 100%;
   max-width: 34rem;
   margin: auto;
+}
+
+.slide-title {
+  margin: 0 0 0.5em;
+  font-family: var(--font-sans);
+  font-size: 2em;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
 .prose p {

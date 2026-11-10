@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F42622afa5f58f5a6acd0c7a8526a7f84adc93717%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:47
-
 ---
 
 ![Jesus Christ standing in front of men in bandages](https://www.churchofjesuschrist.org/imgs/1dbe79f14e3c11edbe31eeeeac1e67b63e764ed6/full/%21640%2C/0/default)

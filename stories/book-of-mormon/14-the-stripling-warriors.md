@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ffc1ab04ac28d4525b932f0543ed0a3d64ea060ea%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:5
-
 Read about this story in [Alma 56–57](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/56?lang=eng)
 
 ---

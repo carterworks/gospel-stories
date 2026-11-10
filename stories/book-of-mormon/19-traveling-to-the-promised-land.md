@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F54d4eafba5797378fdc946f8c2e53e69aea1fd00%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:29
-
 Read about this story in [Ether 2–3](https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/2?lang=eng) and [6](https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/6?lang=eng).
 
 ---

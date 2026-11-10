@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F6f7eb9c3fb82b6cbd95a4b63e9621e5990d8aaeb%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:53
-
 ---
 
 ![Mary, the mother of Jesus, holds the Savior of the World, Jesus Christ, in her arms on the night that he was born into the world. A star shines high up in the heavens and shepherds can be seen walking on a hillside behind them.](https://www.churchofjesuschrist.org/imgs/de8b7042f24811ecab0feeeeac1e08595f9427ad/full/%21640%2C/0/default)

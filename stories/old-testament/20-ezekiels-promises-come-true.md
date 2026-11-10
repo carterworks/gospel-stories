@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F333478a47b3353d41f731d848e50151ed1bc1533%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:2
-
 ---
 
 ![Ezekiel writing on a scroll](https://www.churchofjesuschrist.org/imgs/8885c566c39e11ec9fdeeeeeac1ecb9785359cd3/full/%21640%2C/0/default)

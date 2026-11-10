@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F6fcd3c726dad380c894de4b0cf2b092a6f3b4b43%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:9
-
 [Luke 1:26–38](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng&id=p26-p38#p26); [2:1–20](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng&id=p1-p20#p1)
 
 ---

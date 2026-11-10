@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fba1e00f616e3d209e4af53a99853fd2081e0c52a%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:49
-
 ---
 
 ![Jesus Christ sleeping on a boat while His disciples look at the sea](https://www.churchofjesuschrist.org/imgs/8ce3623f1e3711edbf2feeeeac1ed6573d6a1307/full/%21640%2C/0/default)

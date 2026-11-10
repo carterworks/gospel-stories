@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F973487117a6f246b4a3ba91c6e1f989abf1cb031%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-5:3
-
 Before we came to earth, we lived with our heavenly parents. They loved us! Heavenly Father had a wonderful plan for us. We would come to earth so we could get a body and learn and grow. Then we could come back to live in our heavenly home. But we couldn’t do it on our own. We would need help.
 
 ---

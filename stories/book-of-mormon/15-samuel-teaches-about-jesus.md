@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F4a7303af6ea44e0d884801935c1670e165fb9b31%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:25
-
 Read about this story in [Helaman 13–15](https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/13?lang=eng) and [3 Nephi 1:13–15, 21](https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/1?lang=eng&id=p13-p15,21#p13).
 
 ---

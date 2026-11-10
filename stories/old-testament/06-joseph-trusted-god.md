@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ffmdbig20l338avewixovjz8sn9k6fc47nhetbkmr%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:18
-
 From [Genesis 37–41](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng)
 
 ---

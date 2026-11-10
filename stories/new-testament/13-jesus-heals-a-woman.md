@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F1ca9f45b8c3c7b07e14fb0b74469254e49c87cc1%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:56
-
 ---
 
 ![5 panels depicting the story of Jesus Healing the Women with an issue of blood. There is also an illustration depicting a mondern day application.](https://www.churchofjesuschrist.org/imgs/6afb05c506d511edbb7eeeeeac1eb137676262a4/full/%21640%2C/0/default)

@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F29daa776ec59074ba1380ce424dcbddca4fa9ceb%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:42
-
 ---
 
 ![Paul gesturing down a path](https://www.churchofjesuschrist.org/imgs/7dd15fc8ca6311ed823ceeeeac1e4c37f66604a3/full/%21640%2C/0/default)

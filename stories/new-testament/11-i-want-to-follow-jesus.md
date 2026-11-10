@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fe58de70e7fcd14d52fd5f1d6ae993897fd4a2c7f%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:17
-
 [Luke 5:1–11](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/5?lang=eng&id=p1-p11#p1)
 
 ---

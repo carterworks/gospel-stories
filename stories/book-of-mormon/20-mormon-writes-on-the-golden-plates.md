@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F691228fa7a84d2f7a33208ea76787e25a3b79798%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:21
-
 Read about this story in [Mormon 1 and 9](https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/1?lang=eng).
 
 ---

@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F754aadae1d7f949c9f4c8d38191429def4b3a70e%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:10
-
 ---
 
 ![Old Testament couple getting married](https://www.churchofjesuschrist.org/imgs/9b6e03a88a0511ec9adbeeeeac1eca4e9486e0da/full/%21640%2C/0/default)

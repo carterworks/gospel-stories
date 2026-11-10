@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F3d597cf745e85d695ca37535f72967f6cc4f6e65%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:59
-
 You can read this story in [Abraham 3:22–27](https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng&id=p22-p27#p22). Find a coloring page on [page 48](https://www.churchofjesuschrist.org/study/friend/2022/01/for-little-friends/i-am-a-child-of-god?lang=eng#series_title1).
 
 ---

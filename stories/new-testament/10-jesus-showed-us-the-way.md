@@ -16,10 +16,6 @@ tags:
   - "clippings"
 ---
 
-1:11
-
----
-
 ![Alt text](https://www.churchofjesuschrist.org/imgs/bbae12a9969e11edaf9deeeeac1e1aad28808aa6/full/%21640%2C/0/default)
 
 Illustrations by Dan Burr

@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F9ae83703e1def2296ab54c716d8c583203ff4e21%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:2
-
 ---
 
 ![Illustration of Shadrach, Meshach, and Abednego sitting together talking.](https://www.churchofjesuschrist.org/imgs/10ba4bcdd52a11ec94adeeeeac1e0a06657d04dc/full/%21640%2C/0/default)

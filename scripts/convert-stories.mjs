@@ -16,6 +16,10 @@ const bookDirectories = new Map([
   ["Old Testament", "old-testament"],
   ["New Testament", "new-testament"],
   ["Doctrine and Covenants", "doctrine-and-covenants"],
+  ["Book of Mormon Stories", "book-of-mormon-stories"],
+  ["Old Testament Stories", "old-testament-stories"],
+  ["New Testament Stories", "new-testament-stories"],
+  ["Doctrine and Covenants Stories", "doctrine-and-covenants-stories"],
 ]);
 
 /** @param {number} milliseconds */
@@ -91,6 +95,19 @@ function extractSlides(markdown) {
   }
 
   slides.push(slide.join("\n").trim());
+
+  // Above the cover sit citation boilerplate, the manual name, and the scripture
+  // reference or date range; only the last belongs on the title slide.
+  const reference = markdown
+    .slice(0, Math.max(firstImage, 0))
+    .split("\n")
+    .filter((line) => line && !line.startsWith("“") && !/Stories( for Young Readers)?$/.test(line))
+    .join("\n\n");
+
+  if (reference) {
+    slides[0] = `${slides[0]}\n\n${reference}`;
+  }
+
   return slides.filter(Boolean);
 }
 
@@ -99,7 +116,7 @@ function extractSlides(markdown) {
  * @param {import("defuddle/node").DefuddleResponse} result
  */
 function frontMatter(story, result) {
-  const title = result.title || story.title;
+  const title = story.title;
   const published = formatDate(result.published);
   const video = story.videoUrl ? `video-url: ${story.videoUrl}` : "video-url:";
 
@@ -161,7 +178,13 @@ async function convertStory(story, index) {
     markdown: true,
     removeImages: false,
   });
-  const markdown = result.contentMarkdown ?? result.content ?? "";
+  const videoDuration = /^\d+:\d+(\n+|$)/gm;
+  const repeatedTitle = /^#+ .*(\n+|$)/gm;
+  const linkedImage = /^\[(!\[[^\]]*\]\([^)]+\))\]\([^)]+\)$/gm;
+  const markdown = (result.contentMarkdown ?? result.content ?? "")
+    .replace(videoDuration, "")
+    .replace(repeatedTitle, "")
+    .replace(linkedImage, "$1");
   const slides = extractSlides(markdown);
 
   if (slides.length === 0) {
@@ -169,20 +192,20 @@ async function convertStory(story, index) {
   }
 
   const number = String(index + 1).padStart(2, "0");
-  const filename = `${number}-${slugify(result.title || story.title)}.md`;
+  const filename = `${number}-${slugify(story.title)}.md`;
   const outputPath = join(root, "stories", story.directory, filename);
   let videoUrl = "";
 
   try {
     const existing = await readFile(outputPath, "utf8");
-    videoUrl = existing.match(/^video-url:\s*(.*)$/m)?.[1]?.trim() ?? "";
+    videoUrl = existing.match(/^video-url:[ \t]*(.*)$/m)?.[1]?.trim() ?? "";
   } catch (error) {
     if (!(error instanceof Error && "code" in error && error.code === "ENOENT")) {
       throw error;
     }
   }
 
-  const output = `${frontMatter({ ...story, title: result.title || story.title, videoUrl }, result)}\n\n${slides.join("\n\n---\n\n")}\n`;
+  const output = `${frontMatter({ ...story, videoUrl }, result)}\n\n${slides.join("\n\n---\n\n")}\n`;
 
   await mkdir(dirname(outputPath), { recursive: true });
   await writeFile(outputPath, output);
@@ -211,7 +234,11 @@ async function mapWithConcurrency(items, callback) {
 }
 
 const index = await readFile(indexPath, "utf8");
-const stories = parseStories(index);
+// Pass book directories to convert only those, leaving hand-edited books untouched.
+const onlyDirectories = process.argv.slice(2);
+const stories = parseStories(index).filter(
+  (story) => onlyDirectories.length === 0 || onlyDirectories.includes(story.directory),
+);
 
 await mapWithConcurrency(stories, (story) => convertStory(story, story.position));
 console.log(`Converted ${stories.length} stories.`);

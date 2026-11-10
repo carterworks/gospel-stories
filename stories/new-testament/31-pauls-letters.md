@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F33ec0603c46c00ec9407a6512aef71c2cdb23e27%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:10
-
 [1 Corinthians 1](https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/1?lang=eng) and [Galatians 1](https://www.churchofjesuschrist.org/study/scriptures/nt/gal/1?lang=eng)
 
 The Apostle Paul helped lead the Church after Jesus returned to heaven. Back then, there were no telephones or internet. So Paul wrote letters to members of the Church.

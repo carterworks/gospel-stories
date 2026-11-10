@@ -1,6 +1,6 @@
 # scripture-stories-for-young-readers
 
-A slideshow-style reformatting of the "Stories for Young Readers" books from The Church of Jesus Christ of Latter-Day Saints. Formatted for display on large screens
+A slideshow-style reformatting of the "Stories for Young Readers" and "Scripture Stories" books from The Church of Jesus Christ of Latter-Day Saints. Formatted for display on large screens
 
 Includes:
 
@@ -8,6 +8,13 @@ Includes:
 * https://www.churchofjesuschrist.org/study/manual/old-testament-stories-for-young-readers?lang=eng
 * https://www.churchofjesuschrist.org/study/manual/new-testament-stories-for-young-readers?lang=eng
 * https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-stories-for-young-readers?lang=eng
+* https://www.churchofjesuschrist.org/study/children/scripture-stories?lang=eng (Book of Mormon, Old Testament, New Testament, and Doctrine and Covenants Stories)
+
+The Stories for Young Readers files have hand edits, so re-scrape only the books you need, by directory:
+
+```sh
+node scripts/convert-stories.mjs book-of-mormon-stories new-testament-stories
+```
 
 ## Run locally
 

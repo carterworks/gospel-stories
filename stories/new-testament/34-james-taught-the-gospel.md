@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ftp9a85x3hl875a2a5012ptbhoarkgwdv10wwwl29%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:15
-
 [James 1](https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng)
 
 Did you know that Jesus had brothers and sisters? One was named James. When he grew up, he helped lead the Church.

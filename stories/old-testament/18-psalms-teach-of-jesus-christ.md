@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F0dd108d42e91829a5426761972c0e31313c928f9%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:0
-
 ---
 
 ![a man in Bible clothes playing a harp](https://www.churchofjesuschrist.org/imgs/ec6e5b0c9e0611eca695eeeeac1eb0cfbd5903f2/full/%21640%2C/0/default)

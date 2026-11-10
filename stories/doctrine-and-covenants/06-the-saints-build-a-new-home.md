@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F0fdee2cad55d374e400fbb1667d2b51143270ccc%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:9
-
 Read about this story in [Doctrine and Covenants 58–59](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?lang=eng).
 
 ---

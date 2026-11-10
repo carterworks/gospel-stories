@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fj1pdzwb36kwtxr3cd6efja5ympjw9uz2oqx6zcxi%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:9
-
 [Acts 9:1–22](https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng&id=p1-p22#p1)
 
 ---

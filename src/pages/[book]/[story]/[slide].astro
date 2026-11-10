@@ -36,7 +36,7 @@ const nextSlide = isFinalSlide ? nextStory?.slides[0] : story.slides[slideNumber
   <main class="story-page" data-slide-navigation>
     <header class="story-header">
       <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a class="brand" href="/">Stories for Young Readers</a>
+        <a class="brand" href="/">Gospel Stories</a>
         <span class="breadcrumb-sep" aria-hidden="true">/</span>
         <span class="story-context">{story.bookTitle}</span>
         <span class="breadcrumb-sep" aria-hidden="true">/</span>
@@ -89,7 +89,10 @@ const nextSlide = isFinalSlide ? nextStory?.slides[0] : story.slides[slideNumber
         ))}
       </div>
       <article class="slide-copy">
-        {slide.html && <div class="prose" set:html={slide.html}></div>}
+        <div class="prose">
+          {slideNumber === 1 && <h2 class="slide-title">{story.title}</h2>}
+          <Fragment set:html={slide.html} />
+        </div>
       </article>
     </section>
 

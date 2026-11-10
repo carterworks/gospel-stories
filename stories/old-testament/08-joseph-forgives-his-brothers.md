@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F7fff3f91f34c7bbc5110159c59390908be8fc0e0%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:20
-
 From [Genesis 42, 45](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng)
 
 ---
