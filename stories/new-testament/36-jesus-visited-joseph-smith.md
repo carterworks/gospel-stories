@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fw6kunzk2lf88fqqfqpjy0t64q6pp2k2qrh7aepv8%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:8
-
 [Joseph Smith—History 1:1–20](https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p1-p20#p1)
 
 ---

@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ff750498004de76e81794fdbb6eb4235a6495dd70%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:11
-
 Read about this in [Mormon 8](https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/8?lang=eng) and the [Introduction to the Book of Mormon](https://www.churchofjesuschrist.org/study/scriptures/bofm/introduction?lang=eng).
 
 ---

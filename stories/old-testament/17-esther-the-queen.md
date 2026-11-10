@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fqv1zcanbut8qmnkg5odjijo2e7mdhj83h0jju1de%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:24
-
 From [Esther 2–8](https://www.churchofjesuschrist.org/study/scriptures/ot/esth/2?lang=eng)
 
 ---

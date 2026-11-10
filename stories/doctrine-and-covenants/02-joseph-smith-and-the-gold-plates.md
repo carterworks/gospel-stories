@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Faf34ad327261b5b249cf6b484e728cf8bb11ff65%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:3
-
 Read about this story in [Joseph Smith—History 1](https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng).
 
 ---

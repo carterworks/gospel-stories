@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fb5b0066a566d587f48dc526848c243930e19b562%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:29
-
 From [1 Kings 17](https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/17?lang=eng)
 
 ---

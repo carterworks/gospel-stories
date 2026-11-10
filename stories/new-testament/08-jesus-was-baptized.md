@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F00cc0a9fbdd626fd0deebdaa4acd8c036f5b935e%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:9
-
 [Matthew 3:13–17](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/3?lang=eng&id=p13-p17#p13); [Mark 1:9–11](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng&id=p9-p11#p9); [Luke 3:21–22](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/3?lang=eng&id=p21-p22#p21); [John 1:29–34](https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng&id=p29-p34#p29)
 
 ---

@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F7855e886ac69121fd2276ea6890dc5ab53f66bb0%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:20
-
 [Mark 5:22–43](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/5?lang=eng&id=p22-p43#p22)
 
 ---

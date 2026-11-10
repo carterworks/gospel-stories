@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F691bc0daa567d35d8c3dfd79507af17f8d08b58e%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:22
-
 [Luke 2:40–52](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng&id=p40-p52#p40)
 
 ---

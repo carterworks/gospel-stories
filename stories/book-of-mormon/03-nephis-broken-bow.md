@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F7662782b5afe313b942d3ac544776493ab39c0d5%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:55
-
 Read about this story in [1 Nephi 16](https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/16?lang=eng).
 
 ---

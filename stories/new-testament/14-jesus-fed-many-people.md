@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F721d2b6d72c56a3972f818f04c6c458073b51e58%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:16
-
 [Matthew 14:13–21](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/14?lang=eng&id=p13-p21#p13)
 
 ---

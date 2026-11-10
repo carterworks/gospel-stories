@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fctrdqg4ksscxw4nabsgxttraum1zsvk8d7ppr0z2%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:55
-
 [Matthew 26:22, 24–25](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng&id=p22,24-p25#p22); [1 Corinthians 11:24–25](https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/11?lang=eng&id=p24-p25#p24)
 
 ---

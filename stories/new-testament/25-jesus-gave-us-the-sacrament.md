@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fkp0rnodsy2i16mqrndy3m1oxd01m0gub0f5tbnfx%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:14
-
 [Luke 22–24](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng)
 
 ---

@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Frkyy58yji5f2aibegcncsrti4esky57x0mwse9oe%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:14
-
 [Philippians 4](https://www.churchofjesuschrist.org/study/scriptures/nt/philip/4?lang=eng)
 
 The Apostle Paul traveled to different lands to teach people about Jesus. There were no cars or airplanes back then, so he walked a lot! Sometimes he traveled by ship.

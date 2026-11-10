@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F82d58135cbdfcfbfcadc7f69e2e90050fe5bbf58%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:5
-
 You can read the story about manna in [Exodus 16](https://www.churchofjesuschrist.org/study/scriptures/ot/ex/16?lang=eng).
 
 ---

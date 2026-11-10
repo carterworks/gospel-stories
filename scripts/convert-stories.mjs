@@ -162,7 +162,8 @@ async function convertStory(story, index) {
     removeImages: false,
   });
   const markdown = result.contentMarkdown ?? result.content ?? "";
-  const slides = extractSlides(markdown);
+  const videoDuration = /^\d+:\d+(\n+|$)/gm;
+  const slides = extractSlides(markdown.replace(videoDuration, ""));
 
   if (slides.length === 0) {
     throw new Error(`No slide content found for ${story.url}`);

@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fb59942cd380c16113cc75aa9eb21c8c4cf1171f4%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:47
-
 ---
 
 ![Joshua kneeling and looking up at a ray of light](https://www.churchofjesuschrist.org/imgs/fae7b24789d511ecb9e7eeeeac1e43a945fadcfe/full/%21640%2C/0/default)

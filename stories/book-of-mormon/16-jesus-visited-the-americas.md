@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fsx2gijk0kwoikkoylcn7mlzopi438zzq9ofl2x7n%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:9
-
 Read about this story in [3 Nephi 8–11](https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/8?lang=eng)
 
 ---

@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F791848008a7c8d3d5b8ba0e4389fc57ec3a9992f%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:49
-
 ---
 
 ![Jesus sitting at table with His Apostles](https://www.churchofjesuschrist.org/imgs/b3c73a9565ce11ed937eeeeeac1ec45c9478d55e/full/%21640%2C/0/default)

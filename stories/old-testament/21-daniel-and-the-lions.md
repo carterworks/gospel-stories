@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F7c2e55dbf56007cb408746400836ed101a108426%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:25
-
 From [Daniel 6](https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng)
 
 ---

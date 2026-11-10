@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F543d862ce3312d014f289c97a47e5b35003617da%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:3
-
 Read about this story in [Mosiah 27](https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/27?lang=eng).
 
 ---

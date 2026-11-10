@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F689a4a0ddf80231f1c840aa45f6bf8712958a375%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:7
-
 Read about this story in [Alma 17–19](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/17?lang=eng).
 
 ---

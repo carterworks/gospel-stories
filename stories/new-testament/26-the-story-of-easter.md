@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fo4ivqnsfo3qtvm5ao5avw28et8gkvh1fjgec1kcx%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:15
-
 [Matthew 28](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/28?lang=eng)
 
 ---

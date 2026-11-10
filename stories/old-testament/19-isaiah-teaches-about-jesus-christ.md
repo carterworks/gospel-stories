@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fdfb01b34dbd1f2aa4189557d3b56eb5da9459da6%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:7
-
 ---
 
 ![Old Testament man writing](https://www.churchofjesuschrist.org/imgs/65ddfdf9a07f11eca6cceeeeac1ef0483d8c6947/full/%21640%2C/0/default)

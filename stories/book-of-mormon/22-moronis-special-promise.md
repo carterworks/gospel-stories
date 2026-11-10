@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F603669dd17c27ed68ff0ba10c15fe07cf3ceccca%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:18
-
 Read about this story in [Moroni 10:3–5](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng&id=p3-p5#p3).
 
 ---

@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F9a03a1ead97cf3a3590483d06e55ab0edc163d57%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:13
-
 ---
 
 ![Elijah walking up a mountain](https://www.churchofjesuschrist.org/imgs/47278e0f8ba911ec9adbeeeeac1eca4e8a28c435/full/%21640%2C/0/default)

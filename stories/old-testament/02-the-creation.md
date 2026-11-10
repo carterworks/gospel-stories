@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fe5cad992ae2e630b4a53997350f7a026b58ef500%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:5
-
 From [Genesis 1–2](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng); [Moses 1–3](https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng); [Abraham 4–5](https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/4?lang=eng)
 
 ---

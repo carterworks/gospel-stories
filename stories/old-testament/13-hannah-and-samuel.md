@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fca65be8c72153753313ef9918a098712cddf0f0a%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:17
-
 From [1 Samuel 1–3](https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/1?lang=eng)
 
 ---

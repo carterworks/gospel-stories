@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F1idq18t1ai212ftu63hy7xvpa2naf42q9gtg2wnk%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:56
-
 [Mark 10:13–16](https://www.churchofjesuschrist.org/study/scriptures/nt/mark/10?lang=eng&id=p13-p16#p13)
 
 ---

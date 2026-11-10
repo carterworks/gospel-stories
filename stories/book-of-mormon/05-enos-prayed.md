@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F6cb8b5c8574f18204d143db099b4704dab7a538d%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:1
-
 Read about this story in [Enos 1](https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng).
 
 ---

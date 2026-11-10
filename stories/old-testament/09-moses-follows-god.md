@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ff821398bef506c702487394535c2dcf8e751f291%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:52
-
 From [Exodus 2–34](https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng)
 
 ---

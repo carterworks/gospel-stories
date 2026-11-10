@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F1dca403f0a090825df71d165b023133b239106fe%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:29
-
 From [Genesis 5–9](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/5?lang=eng)
 
 ---

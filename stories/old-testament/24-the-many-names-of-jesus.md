@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F624f6b6c21cfb6951b7b4be4172ae138457641a6%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:13
-
 ---
 
 ![Mary and Joseph looking at the baby Jesus lying in a manger with barn animals around them.](https://www.churchofjesuschrist.org/imgs/ff71c1dce96011eca098eeeeac1e2a4378e89707/full/%21640%2C/0/default)

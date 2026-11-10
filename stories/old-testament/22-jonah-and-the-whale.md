@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F8ffb175bd75d77ef6da29d2bdefc8af7eaa035df%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:26
-
 From [Jonah 1–4](https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/1?lang=eng)
 
 ---

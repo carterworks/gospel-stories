@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ff5e6f1c1398ac7ebbc16f410bd8afc4e8be2d572%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-0:53
-
 ---
 
 ![Alt text](https://www.churchofjesuschrist.org/imgs/8af1036df31f11edbeb1eeeeac1e97afaa2f9dca/full/%21640%2C/0/default)

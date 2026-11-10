@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fffd95615bed73d56146b187223b40fb3c58e3beb%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:5
-
 You can read this story in [Genesis 41](https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng).
 
 ---

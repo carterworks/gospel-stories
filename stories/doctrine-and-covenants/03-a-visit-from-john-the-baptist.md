@@ -18,8 +18,6 @@ tags:
 
 ![](https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F650b7390d8a460290c1afec9607f5d000b1b6f1e%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!640,/0/default)
 
-1:6
-
 Read about this story in [Joseph Smith—History 1:66–75](https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p66-p75#p66) and [Doctrine and Covenants 12–13](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/12?lang=eng).
 
 ---
